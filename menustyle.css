@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,200&family=Merriweather+Sans:wght@500&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.container{
+    padding: 80px 0px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.single-menu img{
+    height: 170px;
+    width: 220px;
+}
+
+.heading{
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.heading p{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-menu{
+    flex-basis: 32%;
+    text-align: center;
+}
+.single-menu h2{
+    background-color: red;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.menu-box{
+    border: 2px solid wheat;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 3px solid black;
+}
+
+.menu-box img{
+    border-radius: 20px;
+    /* max-width: 180px; */
+    border: 1px solid #ddd;
+    padding: 3px;
+}
